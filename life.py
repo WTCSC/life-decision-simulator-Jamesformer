@@ -61,7 +61,12 @@ if wake == "no":
      Nochoice = input("do you follow the mans advice: ")
      if Nochoice == "yes" or Nochoice == "no":
           print("it does not matter your choices do not matter. you wake up and cannot stop smiling it feels like someone is pulling the edges of your mouth up. your face starts to hurt from this")
-          doctor = input("will you go to the doctor to help with the pain")
+          doctor = input("will you go to the doctor to help with the pain: ")
           if doctor == "yes" or doctor == "no":
             print("you go to the doctor and they are baffled at your condition they prescribe you muscle relaxers but they don't work")
-            
+            happy = input("should you go to sleep to help with the pain: ")
+            if happy == "yes" or happy == "no":
+                 print("you go into a deep slumber and you see the same man again he enchants you with his aura you wake up and feel the happiest you ever have. you remember the substance you were exposed to weeks ago you collect what remains of the substance")
+                 spread = input("do you help the man make more people happy: ")
+                 if spread == "yes" or spread == "no": 
+                         print("you gather enough of the substance to help multiple people be happy. you ascend into the shadows and hit multiple people with the spores and you feel relived that they will be embraced by the man. you contenue this for a full week later on into the week your memory starts to fade the only thing you remember is the man. Shortly after the weeks end you suddenly collapse dead after the fungus has ravaged your body. you got the TRUE EVIL ending")
